@@ -27,6 +27,7 @@ public class BankAccount {
 
 
     public String getAccountNumber() {
+
         return accountNumber;
     }
 
@@ -68,4 +69,5 @@ public class BankAccount {
                 ", ownerAddress='" + ownerAddress + '\'' +
                 '}';
     }
+
 }
