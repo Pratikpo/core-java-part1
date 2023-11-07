@@ -12,6 +12,7 @@ public class StreamExample {
         guestList.add("Karan");
         guestList.add("Pratik");
         //streams are used to replace for while loop.
+
         Stream<String> stringStream=guestList.stream();
         stringStream
                 .filter(s->s.length()>=5)
